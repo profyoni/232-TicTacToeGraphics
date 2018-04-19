@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * Many of the methods in the currrent code were developed specifcally for a command-line front end. SOme are not needed for a GUI based and some some need to be changed
- * to represent a more geenric "model" of the game
+ * to represent a more generic "model" of the game
  *
  * Make the code yours...change as needed and following best practices
  */
@@ -17,7 +17,7 @@ public class TicTacToeModel {
     private boolean isPlayerOneMove;
     private Cell[][] grid;
 
-    TicTacToeModel() {
+    public TicTacToeModel() {
         grid = new Cell[3][3];
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 3; col++) {
